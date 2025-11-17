@@ -1,0 +1,27 @@
+nav{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border: 1px solid #ccc;
+    color: blue;
+}
+.middle{
+    display: flex;
+    gap: 25px;
+    color:blue;
+}
+.right button{
+    background-color: red;
+    color: white;
+}
+.cards{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    gap: 2px;
+    text-align: center;
+    background-color:red;
+    color: white;
+}

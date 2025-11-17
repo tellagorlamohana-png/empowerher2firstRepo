@@ -1,0 +1,29 @@
+.vertical-box {
+    width: 250px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    border-radius: 10px;
+    background-color: #B8B5FF
+}
+
+.item {
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: gray;
+    background-color: white;
+    height: auto;
+    display: center;
+    width: 210px;
+    
+
+}
+div{
+     text-align:center ;
+     color: purple;
+     font-family: ;
+}
