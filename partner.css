@@ -1,0 +1,52 @@
+/* RESET + BOX MODEL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  padding: 40px;
+}
+
+/* DIRECT CHILD SELECTOR */
+#container > h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* FLEXBOX GRID */
+.partners-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Each card */
+.partner-card {
+  width: 20%;                  /* About 5 per row (like Masai website) */
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* DESCENDANT SELECTOR */
+.partner-card img {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* SIBLING COMBINATOR — style all cards except the first */
+.partner-card + .partner-card {
+  border-top: 3px solid #f0f0f0;
+}
