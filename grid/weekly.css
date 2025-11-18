@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fdfaff;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: Lobster;
+}
+
+.schedule {
+    display: grid;
+    grid-template-columns: 100px repeat(5, 1fr);
+    gap: 10px;
+}
+
+.time-column div,
+.day div {
+    background: #dff4ff;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #3b3b3b;
+}
+
+.day div {
+    background: #f1e2ff;
+}
+
+.day h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    background: #c1a7ff;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+}
